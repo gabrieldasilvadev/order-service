@@ -6,10 +6,10 @@ import br.com.postech.soat.order.domain.entity.OrderStatus;
 import br.com.postech.soat.order.domain.valueobject.OrderId;
 import br.com.postech.soat.order.infrastructure.messaging.dto.PaymentProcessedMessage;
 import br.com.postech.soat.order.infrastructure.messaging.dto.PaymentStatusMessage;
+import io.awspring.cloud.sqs.annotation.SqsListener;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import io.awspring.cloud.sqs.annotation.SqsListener;
 import org.springframework.stereotype.Component;
 
 @Component

@@ -2,8 +2,8 @@ package br.com.postech.soat.order.infrastructure.http.mapper;
 
 import br.com.postech.soat.openapi.model.DiscountDto;
 import br.com.postech.soat.openapi.model.OrderItemDto;
-import br.com.postech.soat.order.domain.valueobject.Discount;
 import br.com.postech.soat.order.domain.entity.OrderItem;
+import br.com.postech.soat.order.domain.valueobject.Discount;
 import java.math.BigDecimal;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;

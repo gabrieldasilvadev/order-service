@@ -1,8 +1,8 @@
 package br.com.postech.soat.order.application.usecases;
 
 import br.com.postech.soat.commons.infrastructure.aop.monitorable.Monitorable;
-import br.com.postech.soat.order.application.repositories.OrderRepository;
 import br.com.postech.soat.order.application.command.CreateOrderCommand;
+import br.com.postech.soat.order.application.repositories.OrderRepository;
 import br.com.postech.soat.order.domain.entity.Order;
 import br.com.postech.soat.order.infrastructure.messaging.OrderPaymentPublisher;
 import br.com.postech.soat.order.infrastructure.messaging.dto.PaymentRequestedMessage;
