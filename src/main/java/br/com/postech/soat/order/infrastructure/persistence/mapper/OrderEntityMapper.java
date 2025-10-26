@@ -1,8 +1,8 @@
 package br.com.postech.soat.order.infrastructure.persistence.mapper;
 
-import br.com.postech.soat.customer.domain.valueobject.CustomerId;
 import br.com.postech.soat.order.domain.entity.Order;
 import br.com.postech.soat.order.domain.entity.OrderItem;
+import br.com.postech.soat.order.domain.valueobject.CustomerId;
 import br.com.postech.soat.order.domain.valueobject.Observation;
 import br.com.postech.soat.order.domain.valueobject.OrderId;
 import br.com.postech.soat.order.infrastructure.persistence.entity.OrderEntity;

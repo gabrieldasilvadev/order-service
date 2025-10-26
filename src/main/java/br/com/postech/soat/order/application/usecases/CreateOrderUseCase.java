@@ -47,7 +47,7 @@ public class CreateOrderUseCase {
         try {
             PaymentRequestedMessage message = new PaymentRequestedMessage(
                 order.getId().getValue(),
-                order.getCustomerId().value(),
+                order.getCustomerId().getValue(),
                 order.getTotalPrice(),
                 defaultPaymentMethod
             );
